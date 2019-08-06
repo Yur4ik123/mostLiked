@@ -1,0 +1,18 @@
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: space-between;
+  nav {
+    width: 100%;
+    margin-top: 15px;
+    ul {
+      justify-content: center;
+    }
+  }
+  .card {
+    width: 305px;
+    height: 400px;
+    margin-bottom: 15px;
+  }
+}

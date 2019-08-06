@@ -1,0 +1,24 @@
+user-component {
+  .card-body .card-title {
+    color: white;
+  }
+
+  .user-avatar {
+    width: 138px;
+    height: 138px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .madal-container {
+    position: fixed;
+    background-color: black;
+
+    .modal {
+      display: block;
+    }
+  }
+}
